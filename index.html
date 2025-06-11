@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sukmal Business Group - Reliable services in travel, construction, labor, and water supply across Pune since 2002.">
+    <title>Business Group - Professional Services Portfolio</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">Sukmal Business Group</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🏆 Trusted Local Business Partners Since 2002</div>
+                <!-- <h1>Excellence in Every Service We Deliver</h1> -->
+                 <h1>Building trust through excellence</h1>
+                <p>From travel experiences to construction solutions, manpower services to water supply - we are your comprehensive business partners in Santoshnagar, delivering quality and reliability across all sectors.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Explore Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="services-overview">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Our Expertise</div>
+                <h2 class="section-title">Comprehensive Business Solutions</h2>
+                <p class="section-description">We provide end-to-end solutions across multiple industries, ensuring quality, reliability, and professional service in every project we undertake.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">🚌</div>
+                    <h3>Travel & Tourism</h3>
+                    <p>Professional travel services including bus tours, pilgrimage trips, and custom travel packages across India with comfortable and safe transportation.</p>
+                    <a href="Tours_&_Travels.html" class="service-link" onclick="openBusiness('tours')">Learn More →</a>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🏗️</div>
+                    <h3>Construction & Equipment</h3>
+                    <p>Complete construction solutions with heavy equipment rental, excavation services, and industrial project management since 2002.</p>
+                    <a href="Construction_&_HeavyEquipment.html" class="service-link" onclick="openBusiness('construction')">Learn More →</a>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">👷</div>
+                    <h3>Manpower Solutions</h3>
+                    <p>Reliable skilled and unskilled labor supply for construction, industrial, and commercial projects with 24/7 availability.</p>
+                    <a href="LabourSuppliers.html" class="service-link" onclick="openBusiness('labour')">Learn More →</a>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">💧</div>
+                    <h3>Water Supply Services</h3>
+                    <p>Clean and safe water delivery for residential, commercial, and industrial needs with emergency services and reliable supply.</p>
+                    <a href="WaterSupply.html" class="service-link" onclick="openBusiness('water')">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container-wide">
+            <div class="section-header">
+                <div class="section-badge">Our Businesses</div>
+                <h2 class="section-title">Professional Service Portfolio</h2>
+                <p class="section-description">Discover our range of professional services, each backed by years of experience and commitment to excellence.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card fade-in" onclick="openBusiness('tours')">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Travel & Tourism</div>
+                        <h3 class="portfolio-title">Shree Mauli Krupa Tours & Travels</h3>
+                        <p class="portfolio-description">Your trusted partner for comfortable and safe travel experiences across India with comprehensive tour packages and transportation services.</p>
+                        <div class="portfolio-contact">
+                            <div class="contact-item">
+                                <span>📞</span>
+                                <span>9822506114 / 9967988898</span>
+                            </div>
+                            <div class="contact-item">
+                                <span>✉️</span>
+                                <span>sharad.kad@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in" onclick="openBusiness('construction')">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Construction & Equipment</div>
+                        <h3 class="portfolio-title">Universal Solutions</h3>
+                        <p class="portfolio-description">Professional construction and heavy equipment services providing excavation, construction, and industrial project solutions since 2002.</p>
+                        <div class="portfolio-contact">
+                            <div class="contact-item">
+                                <span>📞</span>
+                                <span>9881060577 / 9657592132</span>
+                            </div>
+                            <div class="contact-item">
+                                <span>✉️</span>
+                                <span>universalsolution2002@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in" onclick="openBusiness('labour')">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Manpower Solutions</div>
+                        <h3 class="portfolio-title">Shree Mahalaxmi Labour Suppliers</h3>
+                        <p class="portfolio-description">Reliable manpower solutions for construction, industrial, and commercial projects with skilled and unskilled workers available 24/7.</p>
+                        <div class="portfolio-contact">
+                            <div class="contact-item">
+                                <span>📞</span>
+                                <span>9881060577 / 9822506114</span>
+                            </div>
+                            <div class="contact-item">
+                                <span>✉️</span>
+                                <span>smlswaki@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in" onclick="openBusiness('water')">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Water Supply Services</div>
+                        <h3 class="portfolio-title">Pradeep Water Supplier</h3>
+                        <p class="portfolio-description">Reliable water supply services for residential, commercial, and industrial needs with clean, safe water delivery and emergency services.</p>
+                        <div class="portfolio-contact">
+                            <div class="contact-item">
+                                <span>📞</span>
+                                <span>9822506114 / 9881060577</span>
+                            </div>
+                            <div class="contact-item">
+                                <span>✉️</span>
+                                <span>pradeepkad247200@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <h2>Ready to Work With Us?</h2>
+            <p>Contact us today to discuss your project requirements and discover how our comprehensive business solutions can help you achieve your goals.</p>
+            <div class="hero-buttons">
+                <a href="tel:9822506114" class="btn btn-primary">Call Now</a>
+                <a href="#footer" class="btn btn-secondary">View All Contacts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Santoshnagar Business Group</h3>
+                    <p>Your trusted local business partners providing comprehensive solutions across travel, construction, manpower, and water supply services.</p>
+                    <p><strong>Location:</strong> At. Santoshnagar (Bham), Post Waki (Bk), Bham, Tal. Khed, Dist. Pune - 410501</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <a href="Tours_&_Travels.html" onclick="openBusiness('tours')">Travel & Tourism</a>
+                    <a href="Construction_&_HeavyEquipment.html" onclick="openBusiness('construction')">Construction & Equipment</a>
+                    <a href="LabourSuppliers.html" onclick="openBusiness('labour')">Manpower Solutions</a>
+                    <a href="WaterSupply.html" onclick="openBusiness('water')">Water Supply Services</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p><strong>Primary:</strong> 9822506114</p>
+                    <p><strong>Secondary:</strong> 9881060577</p>
+                    <p><strong>Alternative:</strong> 9967988898</p>
+                    <p><strong>Construction:</strong> 9657592132</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Business Hours</h3>
+                    <p>Monday - Saturday: 6:00 AM - 8:00 PM</p>
+                    <p>Sunday: Emergency Services</p>
+                    <p>24/7 Support Available</p>
+                    <p>Emergency Water Supply: Anytime</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Santoshnagar Business Group. All rights reserved. | Professional Services Since 2002</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>   
+   
+</body>
+</html>
